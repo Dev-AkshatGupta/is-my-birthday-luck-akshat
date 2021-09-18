@@ -1,8 +1,56 @@
-@import url();
-:root{
-    --primary-color:
-};
+@import url('https://fonts.googleapis.com/css2?family=Gluten&display=swap');
 
-#container{
+:root {
+    --primary-color:
+}
+
+body {
+    font-family: 'Gluten', cursive;
+}
+
+#container {
     text-align: center;
-};
+    width: 50%;
+    margin: auto;
+}
+
+#heading {
+    text-align: center;
+    size: large;
+}
+
+#date-of-birth {
+    width: 40%;
+    margin: 12px;
+
+}
+
+.lucky-number {
+    width: 50%;
+
+}
+
+#footer-list {
+    list-style: none;
+    display: inline;
+}
+
+.list-item {
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+
+}
+
+#output-box {
+    margin-top: 2rem;
+}
+
+.link {
+    text-decoration: none;
+    padding: .5rem 1rem;
+    
+
+}

@@ -19,10 +19,8 @@ function dateOfBirthSum(dob){
 {
     if(birthDate%luckyNumber==0)
     {outputBox.innerText="your birthdate is lucky";
-        //console.log("your birthdate is lucky");
-    }
+           }
     else{outputBox.innerText="your luck doesnt works so plzz u work hardest"
-        //console.log("your luck doesnt works so plzz u work hardest");
-    }
+           }
 }
 checkButton.addEventListener("click", luckyNumberCalculator);
