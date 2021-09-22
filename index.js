@@ -16,11 +16,14 @@ function dateOfBirthSum(dob){
         sum=sum+Number(dob.charAt(i));}
     return sum;}
     function compareValues(birthDate,luckyNumber)
-{
+{if(luckyNumber<0){outputBox.innerText="please enter valid values"}
+else{
     if(birthDate%luckyNumber==0)
     {outputBox.innerText="your birthdate is lucky";
            }
     else{outputBox.innerText="your luck doesnt works so plzz u work hardest"
            }
+}
+    
 }
 checkButton.addEventListener("click", luckyNumberCalculator);
