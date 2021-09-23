@@ -6,7 +6,7 @@ const outputBox =document.querySelector("#output-box");
 function luckyNumberCalculator()
 {
     const dob=dateOfBirth.value;
-    if(luckyNumber.value && dob !==" ")
+    if(luckyNumber.value && dob !=="")
     {
         const sum=dateOfBirthSum(dob);
         compareValues(sum,luckyNumber.value);
